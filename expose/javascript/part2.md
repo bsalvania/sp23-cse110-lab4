@@ -9,3 +9,11 @@
 9. The code causes an error because `i` is not within the scope of line 11, it was declared using `let` for the for loop, and since line 11 is outside the for loop, the code causes an error.
 10. The console will output 3, because `length` was defined to have a value of 3, and it was declared in the same scope that line 12 is at. Additionally, `length` was never attempted to be reassigned, so no errors occur.
 11. The function will return `[50, 100, 150]` since `discounted` is still within scope and is never reassigned, values are added to it. Furthermore, the for loop causes every integer in the given array to basically reduce by half of its value, and pushes that halved value to `discounted`, the one that is returned.
+12. Notation
+    1.  `student.name`
+    2.  `student["Grad Year"]`
+    3.  `student.greeting()`
+    4.  `student["Favorite Teaacher"].name`
+    5.  `student.courseLoad[0]`
+13. 
+
