@@ -1,1 +1,1 @@
-
+1. The console will output 3, because `i` is a a variable declared using var inside a function, meaning it has function scope. Thus, `i` is still within the scope and visible, and is outputted to console. It gets the value of 3 because throughout the for loop, `i` increments up to 3, because `prices` has a length of 3.
