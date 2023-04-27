@@ -1,0 +1,2 @@
+1. The bug was that the type of num1 and num2 was string, meaning that when they were added together, they were instead concatenated together.
+2. I would fix this by changing line 11 to `let result = Number(num1) + Number(num2)`, which would convert num1 and num2 to numbers.
