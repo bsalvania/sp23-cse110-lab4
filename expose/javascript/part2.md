@@ -32,4 +32,5 @@
     5.  `false`: true gets converted to 1, and 1 does not equal 2.
     6.  `true`: `Boolean(2)` converts 2 to true, and thus they become the same type. And true does equal true.
 15. `==` is equality and compares if 2 values are equal and if they are not of the same type, then JavaScript will convert the values to numbers. `===` is strict equality and compares if two values are of the same type and if they are, then check if the values are equal. Basically, `==` does type conversion and `===` does not do type conversion.
-16. 
+16. Check .js file
+17. 

@@ -1,18 +1,20 @@
 
-let student = {
-    name: 'Sarah',
-    major: 'Computer Science',
-    'Grad Year': '2022',
-    greeting: function() { console.log('Hello!'); },
-    'Favorite Teaacher': {
-        name: 'Thomas Powell',
-        course: 'CSE 110'
-    },
-    courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
+let statistics = {
+    redCars: 21,
+    blueCars: 45,
+    greenCars: 12,
+    raceCars: 5,
+    blackCars: 40,
+    rareCars: 2,
 };
 
-console.log(student.name);
-console.log(student["Grad Year"]);
-console.log(student.greeting());
-console.log(student["Favorite Teaacher"].name);
-console.log(student.courseLoad[0]);
+for (let car in statistics) {
+    if (car[0] == 'r' || statistics[car] % 2 == 1) {
+        console.log(statistics[car]);
+    }
+    // if (statistics[car] % 2 == 1) {
+    //     console.log(statistics[car]);
+    // }
+    // console.log(car[0]);
+}
+// console.log(statistics.redCars);
