@@ -15,5 +15,21 @@
     3.  `student.greeting()`
     4.  `student["Favorite Teaacher"].name`
     5.  `student.courseLoad[0]`
-13. 
-
+13. Arithmetic
+    1.  `32`: The 2 gets converted to a string, and '3' and '2' concatenated makes '32'. The `+` is used to concatenate strings in this case.
+    2.  `1`: The 3 gets converted to an integer, and 3 - 2 = 1. The `-` is used to perform numeric subtraction.
+    3.  `3`: null gets converted to a 0 to do numeric addition, and 3 + 0 = 3.
+    4.  `3null`: null gets converted to a string to do concatenation, and '3' concatenated with 'null' is '3null'.
+    5.  `4`: true gets converted to 1 to do numeric addition, and 1 + 3 = 4.
+    6.  `0`: false and null both get converted to 0 to do numeric addition, 0 + 0 = 0.
+    7.  `3undefined`: undefined gets converted to a string to do concatenation, and '3' concatenated with 'undefined' is '3undefined'.
+    8.  `NaN`: undefined gets converted to NaN, which is not a number, and thus NaN is returned because subtraction cannot be performed.
+14. Comparison
+    1.  `true`: 2 gets converted to an integer to do integer comparison, and 2 is greater than 1.
+    2.  `false`: Dictionary comparison, 2 is not less than 1, so false is returned.
+    3.  `true`: 2 gets converted to an integer, and 2 does equal 2.
+    4.  `false`: Uses strict equality, and an integer and a string are different types, so false.
+    5.  `false`: true gets converted to 1, and 1 does not equal 2.
+    6.  `true`: `Boolean(2)` converts 2 to true, and thus they become the same type. And true does equal true.
+15. `==` is equality and compares if 2 values are equal and if they are not of the same type, then JavaScript will convert the values to numbers. `===` is strict equality and compares if two values are of the same type and if they are, then check if the values are equal. Basically, `==` does type conversion and `===` does not do type conversion.
+16. 
