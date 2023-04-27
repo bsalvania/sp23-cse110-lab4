@@ -34,3 +34,5 @@
 15. `==` is equality and compares if 2 values are equal and if they are not of the same type, then JavaScript will convert the values to numbers. `===` is strict equality and compares if two values are of the same type and if they are, then check if the values are equal. Basically, `==` does type conversion and `===` does not do type conversion.
 16. Check .js file
 17. The result will be `[2, 4, 6]`. First, `modifyArray` creates a new empty array. Then, in the for loop, each number in the given array is input into the `doSomething` function, which doubles the value of the number, and then that number is inserted into the new array. When all the values of the given array has been visited, the new array gets returned, which is the original array except every value is now doubled.
+18. Check .js file
+19. The output is `1, 4, 3, 2`.
